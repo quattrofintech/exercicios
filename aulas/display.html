@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        section{
+            height: 25vh;
+        }
+
+        .block div{
+            width: 30%;
+            border: 2px solid red;
+            margin-bottom: 5px;
+        }
+
+        .inline div{
+            width: 500px; /* NÃO FUNCIONA PQ ESTÁ INLINE*/
+            display: inline;
+            background-color: blueviolet;
+        }
+
+        .inline-block div{
+            width: 30%;
+            display: inline-block;
+            background-color: blueviolet;
+            border: 2px solid red;
+        }
+        .none div{
+            width: 30%;
+            margin-bottom: 5px;
+            background-color: cadetblue;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="block">
+        <h1>BLOCK</h1>
+        <div>BLOCK 1</div>
+        <div>BLOCK 2</div>
+        <div>BLOCK 3</div>
+    </section>
+    <section class="inline">
+        <h1>INLINE</h1>
+        <div>INLINE 1 O TAMANHO É RELATIVO AO CONTEÚDO</div>
+        <div>INLINE 2</div>
+        <div>INLINE 3</div>
+    </section>
+    <section class="inline-block">
+        <h1>INLINE BLOCK</h1>
+        <div>INLINE-BLOCK 1</div>
+        <div>INLINE-BLOCK 2</div>
+        <div>INLINE-BLOCK 3</div>
+    </section>
+    <section class="none">
+        <h1>NONE</h1>
+        <div>NONE 1</div>
+        <div>NONE 2</div>
+        <div>NONE 3</div>
+    </section>
+</body>
+</html>
