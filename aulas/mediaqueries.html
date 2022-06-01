@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Media Queries</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+            body{
+                background-color: cadetblue;
+            }
+            header {
+                background-color: burlywood;
+            }
+            .phone{
+                display: block;
+            }
+            .desk{
+                display: none;
+            }
+            header nav{
+                text-align: center;
+                font-size: 18pt;
+            }
+            header nav a{
+                text-decoration: none;
+                color: black;
+            }
+
+            span.img{
+                width: 100%;
+                text-align: center;
+                font-size: 150px;
+            }
+            p{
+                width: 95%;
+                font-size: 12pt;
+                margin: auto;
+                text-align: justify;
+            }
+            
+        @media(min-width: 601px){
+            body{
+                background-color: burlywood;
+            }
+            .phone{
+                display: none;
+            }
+            .desk{
+                display: block;
+            }
+            header {
+                background-color: cadetblue;
+            }
+            header nav{
+                text-align: center;
+                font-size: 24pt;
+            }
+            header nav a{
+                text-decoration: none;
+                color: black;
+            }
+
+            span.img{
+                width: 100%;
+                text-align: center;
+                font-size: 400px;
+            }
+            p{
+                width: 80%;
+                font-size: 16pt;
+                margin: auto;
+                text-align: justify;
+            }
+        }
+        @media(min-width: 1199px){
+            body{
+                background-color: cadetblue;
+            }
+            header {
+                background-color: burlywood;
+            }
+            header nav{
+                text-align: center;
+                font-size: 30pt;
+            }
+            header nav a{
+                text-decoration: none;
+                color: black;
+            }
+
+            span.img{
+                width: 100%;
+                text-align: center;
+                font-size: 700px;
+            }
+            p{
+                width: 70%;
+                font-size: 18pt;
+                margin: auto;
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="desk"><a href="#">MENU</a></nav>
+        <nav class="phone"><a href="#"><span class="material-icons">menu</span></a></nav>
+    </header>
+    <span class="material-icons img">laptop_windows</span>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias dolore rerum velit cupiditate, sapiente, blanditiis minima animi maiores omnis et iste incidunt quod soluta voluptatem, tenetur vero nesciunt esse alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam harum similique, inventore eum doloribus nemo ipsa quas labore, pariatur, beatae necessitatibus iusto libero explicabo quidem! Qui veritatis rem non sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque hic iste harum ipsum at vero, consequuntur aliquid sequi! Quibusdam voluptatum optio numquam dicta cumque. Omnis debitis quasi modi eos!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias dolore rerum velit cupiditate, sapiente, blanditiis minima animi maiores omnis et iste incidunt quod soluta voluptatem, tenetur vero nesciunt esse alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam harum similique, inventore eum doloribus nemo ipsa quas labore, pariatur, beatae necessitatibus iusto libero explicabo quidem! Qui veritatis rem non sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque hic iste harum ipsum at vero, consequuntur aliquid sequi! Quibusdam voluptatum optio numquam dicta cumque. Omnis debitis quasi modi eos!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias dolore rerum velit cupiditate, sapiente, blanditiis minima animi maiores omnis et iste incidunt quod soluta voluptatem, tenetur vero nesciunt esse alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam harum similique, inventore eum doloribus nemo ipsa quas labore, pariatur, beatae necessitatibus iusto libero explicabo quidem! Qui veritatis rem non sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque hic iste harum ipsum at vero, consequuntur aliquid sequi! Quibusdam voluptatum optio numquam dicta cumque. Omnis debitis quasi modi eos!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias dolore rerum velit cupiditate, sapiente, blanditiis minima animi maiores omnis et iste incidunt quod soluta voluptatem, tenetur vero nesciunt esse alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam harum similique, inventore eum doloribus nemo ipsa quas labore, pariatur, beatae necessitatibus iusto libero explicabo quidem! Qui veritatis rem non sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque hic iste harum ipsum at vero, consequuntur aliquid sequi! Quibusdam voluptatum optio numquam dicta cumque. Omnis debitis quasi modi eos!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias dolore rerum velit cupiditate, sapiente, blanditiis minima animi maiores omnis et iste incidunt quod soluta voluptatem, tenetur vero nesciunt esse alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam harum similique, inventore eum doloribus nemo ipsa quas labore, pariatur, beatae necessitatibus iusto libero explicabo quidem! Qui veritatis rem non sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque hic iste harum ipsum at vero, consequuntur aliquid sequi! Quibusdam voluptatum optio numquam dicta cumque. Omnis debitis quasi modi eos!</p>
+
+</body>
+</html>
