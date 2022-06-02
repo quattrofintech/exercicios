@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Input</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        section{
+            padding: 20px;
+        }
+        section div{
+            width: 300px;
+            text-align: center;
+            margin: auto;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: #3c3c3c;
+        }
+        section div input{
+            width: 90%;
+            background-color: transparent;
+            border: transparent;
+            color: white;
+            padding: 2px;
+        }
+
+        section div .material-icons{    
+            position: relative;
+            top: 3px;
+            color: white;
+            font-size: 16px;
+            margin: auto;
+        }
+
+
+        article{
+            width: 100%;
+            height: auto;
+            position: relative;
+            text-align: center;
+        }
+        article label{
+            position: absolute;
+            width: 35px;
+            overflow: hidden;
+            top: -5px;
+        }
+
+        article input{
+            width: 300px;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 14pt;
+            padding-left: 40px;
+            outline: 5px solid red;
+            text-transform: lowercase;
+        }
+
+        article .material-icons{
+            font-size: 30px;
+            padding: 5px;
+            font-weight: lighter;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <label for="pesquisa1"><i class="material-icons">cloud</i></label>
+            <input type="text" id="pesquisa1">
+        </div>
+    </section>
+    <article>
+        <label for="pesquisa2"><i class="material-icons">search</i></label>
+        <input type="text" id="pesquisa2">
+    </article>
+</body>
+</html>
