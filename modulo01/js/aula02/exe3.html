@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+</head>
+<body>
+    <h1>Exercícios 03</h1>
+    <ul> 
+        <p>Pegar 2 números</p>
+        <li>Pedir dois números para o usuário</li>
+        <li>Exibir as entradas</li>
+        <li>Exibir a soma dos números</li>
+        <li>Exibir a Subtração dos números</li>
+        <li>Exibir a divisão dos números</li>
+        <li>Exibir a Multiplicação dos números</li>
+        <li>Exibir a pontência entre os números</li>
+        <li>Exibir a modulo da divisão entre os números</li>
+        <li>Exibir o "n1" incrementado e "n2" decrementado</li>
+    </ul>
+    <p>Abra o console para ver a saída (f12 / inspecionar)</p>
+    <script>
+        // Declarando Variaveis
+        var n1;
+        var n2;
+        var calculos;
+        // Recebebdno dados do Usuario
+        n1 = prompt("Digite um número: ")
+        n2 = prompt("Digite outro número: ")
+        //Exibir dados
+        console.log(`Numero 1: ${n1}  Numero 2: ${n2}`)
+        //Tratando Variaveis
+        var numero1 = Number(n1)
+        var numero2 = Number(n2)
+        // Soma
+        calculos = numero1 + numero2
+        console.log("Soma: " + calculos)
+        // Subtracao
+        calculos = numero1 - numero2
+        console.log("Subtração: " + calculos)
+        // Divisão
+        calculos = numero1 / numero2
+        console.log("Divisão: " + calculos)
+        // Multiplicação
+        calculos = numero1 * numero2
+        console.log("Multiplicação: " + calculos)
+        // Potencia
+        calculos = numero1 ** numero2
+        console.log(`Potencia entre ${numero1} e ${numero2} é : ${calculos}`)
+        // Modulo
+        calculos = numero1 % numero2
+        console.log(`Resto da divisão entre ${numero1} e ${numero2} é : ${calculos}`)
+        // Increment e decrement
+        console.log(`${numero1} incrementado é ${++numero1} e ${numero2} decrementado é ${--numero2}`)
+    </script>
+</body>
+</html>

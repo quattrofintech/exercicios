@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+</head>
+<body>
+    <h1>Exercícios 05</h1>
+    <ul> 
+        <p>IMG</p>
+        <li>Pedir a altura e o peso</li>
+        <li>Exibir os dados</li>
+        <li>Exibir o resultado do calculo do IMC do usuario</li>
+    </ul>
+    <p>Abra o console para ver a saída (f12 / inspecionar)</p>
+    <script>
+        // Declarando Variaveis
+        var altura;
+        var peso;
+        var imc;
+        // Recebebdno dados do Usuario
+        altura = prompt("Digite a sua altura: ")
+        peso = prompt("Digite o seu peso: ")
+        //Exibir dados
+        console.log(`Altura: ${altura}, Peso: ${peso}`)
+        //Tratar Dados
+        var alt = Number(altura)
+        var ps = Number(peso)
+        // Calculo do IMC
+        imc = peso / (altura * 2)
+        //Exibindo IMC
+        console.log("Seu IMC é: " + imc.toFixed(2) + "%")
+        
+    </script>
+</body>
+</html>

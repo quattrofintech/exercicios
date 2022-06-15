@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <h1>Exercícios 01</h1>
+    <ul> 
+        <p>Fazer Login</p>
+        <li>Pedir login (ususairo/senha) do Usuario</li>
+        <li>Exibir os dados recolhinos no console</li>
+        <li>Pedir confirmação se os dados estão corretos</li>
+        <li>Exibir se estalogado (true/false)</li>
+    </ul>
+    <p>Abra o console para ver a saída (f12 / inspecionar)</p>
+    <script>
+        // Declarando Variaveis
+        var usuario = "Usuario";
+        var senha = "Senha";
+        // Recebebdno dados do Usuario
+        usuario = prompt("Digite o usuario")
+        senha = prompt("Digite a sua senha")
+        //Exibir dados
+        console.log(usuario + " - " + senha)
+        //Exibir e perguntar se os dados estão corretos
+        var dadosCertos = confirm(`Seus dados estão corretos? ${usuario} - ${senha}`)
+        alert("Logado: " + dadosCertos)
+
+    </script>
+</body>
+</html>

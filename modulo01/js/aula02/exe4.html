@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+</head>
+<body>
+    <h1>Exercícios 04</h1>
+    <ul> 
+        <p>Notas</p>
+        <li>Pedir 4 notas de um aluno</li>
+        <li>Exibir as notas</li>
+        <li>Exibir a média das notas</li>
+        <li>Exibir o "n1" incrementado e "n2" decrementado</li>
+    </ul>
+    <p>Abra o console para ver a saída (f12 / inspecionar)</p>
+    <script>
+        // Declarando Variaveis
+        var nota1;
+        var nota2;
+        var nota3;
+        var nota4;
+        var media;
+        // Recebebdno dados do Usuario
+        nota1 = prompt("Digite a 1º nota: ")
+        nota2 = prompt("Digite a 2º nota: ")
+        nota3 = prompt("Digite a 3º nota: ")
+        nota4 = prompt("Digite a 4º nota: ")
+        //Exibir dados
+        console.log(`Nota 1º: ${nota1}, Nota 2º: ${nota2}, Nota 3º: ${nota3}, Nota 4º: ${nota4}`)
+        //Tratar Dados
+        var n1 = Number(nota1)
+        var n2 = Number(nota2)
+        var n3 = Number(nota3)
+        var n4 = Number(nota4)
+        // Calculo da media
+        media = (n1 + n2 + n3 + n4) / 4
+        //Exibindo a media
+        console.log("A média da notas é: " + media)
+        
+    </script>
+</body>
+</html>
