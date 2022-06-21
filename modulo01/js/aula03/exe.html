@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgba(0, 0, 0, 0.236);
+        }
+        header{
+            height: 50px;
+            text-align: center;
+            font-size: 25pt;
+            color: white;
+            background-color: black;
+        }
+
+        main{
+            width: 80%;
+            margin: auto;
+            background-color: #ccc;
+            padding: 10px;
+        }
+        main img{
+            width: 50%;
+            height: auto;
+            margin-left: 25%;
+        }
+        main p{
+            font-size: 20pt;
+            text-align: justify;
+        }
+
+        footer{
+            height: 30px;
+            background-color: black;
+            text-align: center;
+        }
+
+        footer a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>Exercício 01</span>
+    </header>
+    <main>
+        <article>
+            <img src="../../../AprendendoHTML/img/logoFundoAzulVGA.jpg" alt="">
+        </article>
+        <article>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores unde sequi molestiae rerum repellendus dolor sint facere, itaque accusantium quae atque consequuntur nemo perspiciatis natus a similique non dignissimos commodi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse repellendus aspernatur molestiae cupiditate, veritatis blanditiis, numquam nostrum enim provident excepturi explicabo nobis ea iste ex! Illum, dicta. Est, doloribus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum fuga repellat saepe expedita, dolores recusandae quo non quos. Dolorem maxime accusamus, a voluptas quis laudantium optio consequuntur nemo mollitia sint!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit sint ipsam corporis quod, minima veniam cum placeat hic, doloribus, labore aliquid quibusdam molestias a rerum ipsum soluta consequuntur voluptates!</p>
+        </article>
+    </main>
+    <footer>
+        <a href="#" class="link">Js exercício 01</a>
+    </footer>
+
+    <script>
+        //Capturando Título (header)
+        var titulo = document.querySelector('header span');
+        console.log("Título: " + titulo.innerHTML)
+
+        //Capturando Img (Main)
+        var img = document.getElementsByTagName('img');
+        console.log("IMG: " + img[0].src)
+
+        //Capturando Paragrafos (Main)
+        var parag = document.querySelectorAll('main p');
+        console.log("Parágrafos: " + parag.length)
+
+        //Capturando Rodapé (footer)
+        var link = document.getElementsByClassName('link')
+        console.log("Links: " + link.length)
+
+
+    </script>
+</body>
+</html>
