@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guru RPG</title>
+</head>
+<body onload="inicializa()">
+    <header>
+        <p>Guru RPG</p>
+    </header>
+    <main>
+        <article>
+            <nav>
+                <button onclick="home()">Home</button>
+                <button onclick="login()">Login</button>
+                <button onclick="cadastro()">Cadastro</button>
+            </nav>
+            <section class="sec">
+                <h1>Quer jogar RPG em grupo?</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe odit vero ad, modi amet totam ab voluptates eius repudiandae explicabo! Magni repellendus consectetur eius sed animi doloremque necessitatibus rem assumenda. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tenetur eum voluptatibus officiis aliquid quam dolorum nemo quas cumque dolores maxime similique, commodi esse dolor corporis magnam consequatur facere quia!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe odit vero ad, modi amet totam ab voluptates eius repudiandae explicabo! Magni repellendus consectetur eius sed animi doloremque necessitatibus rem assumenda. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tenetur eum voluptatibus officiis aliquid quam dolorum nemo quas cumque dolores maxime similique, commodi esse dolor corporis magnam consequatur facere quia!</p>
+            </section>
+            <section class="sec">
+                <h1>login</h1>
+                <div>
+                    <input type="text" name="txtLogin" placeholder="Login . . .">
+                    <br>
+                    <input type="password" name="txtSenha" placeholder="Senha . . .">
+                    <br>
+                    <button onclick="logar()">Logar</button>
+                </div>
+            </section>
+            <section class="sec">
+                <h1>Cadastrar</h1>
+                <div>
+                    <input type="email" name="txtEmail" placeholder="Email">
+                    <br>
+                    <input type="text" name="txtLogin" placeholder="Login . . .">
+                    <br>
+                    <input type="password" name="txtSenha" placeholder="Senha . . .">
+                    <br>
+                    <input type="password" name="txtSenha" placeholder="Confirme a senha . . .">
+                    <br>
+                    <button onclick="cadastrar()">Cadastrar</button>
+                </div>
+            </section>
+        </article>      
+        <article id="logado">   
+                <div>
+                    <span>login</span>
+                    <h1>Conectado</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa tempora deserunt consectetur, est nam accusamus excepturi, consequatur iusto necessitatibus aspernatur aperiam provident alias enim quis commodi quia tempore quae eos.  <a href="#">Canal Discord</a></p>
+                </div>
+        </article>
+    </main>
+    <section class="galeria">
+        <div>
+            <img src="./assets/img/img1.jpeg" alt="">
+            <img src="./assets/img/img2.jpeg" alt="">
+            <img src="./assets/img/img3.jpg" alt="">
+            <img src="./assets/img/img4.jpg" alt="">
+            <img src="./assets/img/img5.webp" alt="">
+        </div>
+    </section>
+    <section class="tabela">
+        <table>
+            <caption>Ranking Jogadores</caption>
+            <thead>
+                <tr>
+                    <th>Nick</th>
+                    <th>Pnts</th>
+                    <th>Coins</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>kenj</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>kenj</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>kenj</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>kenj</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>kenj</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+                <tr>
+                    <td>gkaustchr</td>
+                    <td>1500</td>
+                    <td>$ 350</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados Guru RPG</p>
+    </footer>
+
+
+    <script>
+
+        function inicializa(){
+            document.querySelectorAll('main article section')[0].style.display = "block";
+            document.querySelectorAll('main article section')[1].style.display = "none";
+            document.querySelectorAll('main article section')[2].style.display = "none";
+            document.getElementById('logado').style.display = "none";
+        }
+        function home(){
+            document.querySelectorAll('main article section')[0].style.display = "block";
+            document.querySelectorAll('main article section')[1].style.display = "none";
+            document.querySelectorAll('main article section')[2].style.display = "none";
+        }
+        function login(){
+            document.querySelectorAll('main article section')[0].style.display = "none";
+            document.querySelectorAll('main article section')[1].style.display = "block";
+            document.querySelectorAll('main article section')[2].style.display = "none";
+        }
+
+        function cadastro(){
+            document.querySelectorAll('main article section')[0].style.display = "none";
+            document.querySelectorAll('main article section')[1].style.display = "none";
+            document.querySelectorAll('main article section')[2].style.display = "block";
+        }
+
+        function logar(){
+            var login = document.getElementsByName('txtLogin')[0].value 
+            var senha = document.getElementsByName('txtSenha')[0].value 
+            document.querySelector('main #logado span').innerText = login;
+            
+            document.querySelectorAll('main article')[0].style.display = "none";
+
+           document.getElementById('logado').style.display = "block";
+            
+        }
+
+        function cadastrar(){
+            var email = document.getElementsByName('txtEmail')[0].value 
+            document.querySelector('main #logado span').innerText = email;
+            
+            document.querySelectorAll('main article')[0].style.display = "none";
+
+           document.getElementById('logado').style.display = "block";
+        }
+    </script>
+</body>
+</html>
