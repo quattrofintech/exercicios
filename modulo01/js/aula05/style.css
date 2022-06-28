@@ -198,3 +198,26 @@ main #logado div p{
  .tabela table tbody tr:hover{
     background-color: red;
  }
+
+ @media (max-width: 1000px){
+    main article{
+        width: 90%;
+        margin-left: 5%;
+        position: absolute;
+        margin-top: 150px;
+    }
+
+    .galeria > div{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .tabela table{
+        width: 90%;
+        margin: auto;
+    }
+ }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Aula 06</title>
+</head>
+<body onload="carregar()">
+    <header>
+        <a href="index.html">LOGO EMPRESA</a>
+        <nav class="container">
+            <a href="index.html">HOME</a>
+            <a href="#">PRODUTOS</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTATO</a>
+        </nav>
+    </header>
+
+    <header id="hamburguer">
+        <label for="menu">=</label>
+        <input type="checkbox" name="checkMenu" id="menu" onchange="menu()">
+    </header>
+
+    <div id="container-menu">
+        <a href="index.html">LOGO EMPRESA</a>
+        <nav class="container">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">PRODUTOS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>            
+        </nav>
+    </div>
+
+    <label for="color">Light</label>
+    <input type="checkbox" name="chekModo" id="color" onchange="colorMode()">
+    <label for="color">Dark</label>
+
+    <div class="modal-container">
+        <div class="modal">
+            <button onclick="fecharModal()">X</button>
+
+        </div>
+
+    </div>
+
+    <button onclick="abrirModal()">Abrir Modal</button>
+    <script src="index.js"></script>
+</body>
+</html>
